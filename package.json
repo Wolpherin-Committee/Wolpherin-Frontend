@@ -1,0 +1,26 @@
+{
+    "name": "wolpherin-frontend",
+    "version": "1.0.0",
+    "description": "The front end of the social platform Wolpherin.",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Wolpherin-Committee/Wolpherin-Frontend.git"
+    },
+    "keywords": [
+        "frontend"
+    ],
+    "author": "Hantem Rorsay Y.",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/Wolpherin-Committee/Wolpherin-Frontend/issues"
+    },
+    "homepage": "https://github.com/Wolpherin-Committee/Wolpherin-Frontend#readme",
+    "devDependencies": {
+        "electron": "^21.2.1"
+    }
+}
