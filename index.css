@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--primaryColor);
+}
+
+.contentBar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 59px;
+    height: 100%;
+    border-right: 1px solid var(--thirdColor);
+    background-color: var(--secondaryColor);
+}
+
+.contentContainer {
+    position: absolute;
+    left: 60px;
+    top: 0;
+    width: calc(100% - 60px);
+    height: 100%;
+    background-color: var(--primaryColor);
+}
+
+.upContentBar {
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    width: 40px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.downContentBar {
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+    width: 40px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
