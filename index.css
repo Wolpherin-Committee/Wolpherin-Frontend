@@ -44,7 +44,7 @@ body {
     left: 10px;
     bottom: 50px;
     width: 40px;
-    height: 24px;
+    height: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -53,4 +53,29 @@ body {
     -moz-user-select: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
+}
+
+.contentButton {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentButton:hover {
+    background-color: var(--thirdColor);
+}
+
+.contentButtonInactive {
+    padding: 0;
+    margin: 0;
+}
+
+.contentButtonActive {
+    padding: 0;
+    margin: 0;
+    background-color: var(--thirdColor);
 }
